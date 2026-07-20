@@ -1,5 +1,5 @@
-Apple Sales Data Analysis using SQL
-
+**Apple Sales Data Analysis using SQL
+**
 This project showcases an end-to-end SQL data analysis of an Apple retail sales dataset containing 1+ million records across 5 relational tables. Using Microsoft SQL Server, I performed Exploratory Data Analysis (EDA), solved real-world business problems, and uncovered historical sales trends to generate actionable business insights. The project includes an Entity Relationship Diagram (ERD) to illustrate the database schema and relationships between tables.
 
 Data Source: Kaggle = https://www.kaggle.com/datasets/amangarg08/apple-retail-sales-dataset
