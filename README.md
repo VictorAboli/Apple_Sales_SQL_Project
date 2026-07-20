@@ -1,6 +1,6 @@
 #  Apple Sales Data Analysis using SQL
 
-
+![Apple](https://github.com/VictorAboli/Apple_Sales_SQL_Project/blob/ea6ce622790532f12a752fe47874dd2b7c9ccc3f/Apple_Image.webp)
 
 ## **📌 Project Overview**
 
@@ -61,33 +61,6 @@ These tables are connected through primary and foreign keys to support comprehen
 
 ✔ Generate actionable business recommendations
 
----
-
-## **🛠 SQL Concepts Used**
-
-- **SELECT Statements**
-- **Filtering (WHERE)**
-- **ORDER BY**
-- **GROUP BY**
-- **HAVING**
-- **INNER JOIN**
-- **LEFT JOIN**
-- **RIGHT JOIN**
-- **Subqueries**
-- **Common Table Expressions (CTEs)**
-- **Aggregate Functions**
-- **Window Functions**
-- **Ranking Functions**
-- **Running Totals**
-- **Date Functions**
-- **CASE Statements**
-- **LAG()**
-- **DENSE_RANK()**
-- **RANK()**
-- **CAST()**
-- **FORMAT()**
-- **DATEADD()**
-- **DATEDIFF()**
 
 ---
 
@@ -153,53 +126,6 @@ The project answers **20+ business questions**, including:
 
 ---
 
-## **📷 Sample Query Results**
-
-### **Store Performance**
-
-<p align="center">
-<img src="images/store_performance.png" width="850">
-</p>
-
----
-
-### **Warranty Analysis**
-
-<p align="center">
-<img src="images/warranty_claims.png" width="850">
-</p>
-
----
-
-### **Running Sales Trend**
-
-<p align="center">
-<img src="images/running_sales.png" width="850">
-</p>
-
----
-
-## **📂 Repository Structure**
-
-```
-Apple-Sales-Analysis-SQL/
-│
-├── README.md
-├── Apple Sales SQL.sql
-├── Apple Sales Report.pdf
-├── Dataset/
-│
-├── images/
-│   ├── ERD.png
-│   ├── store_performance.png
-│   ├── warranty_claims.png
-│   ├── running_sales.png
-│
-└── Dataset Files
-```
-
----
-
 ## **🚀 Skills Demonstrated**
 
 - SQL
@@ -212,22 +138,6 @@ Apple-Sales-Analysis-SQL/
 - Business Problem Solving
 - Data Interpretation
 - Analytical Thinking
-
----
-
-## **🛠 Technologies Used**
-
-- Microsoft SQL Server
-- T-SQL
-- SQL Server Management Studio (SSMS)
-- Git
-- GitHub
-
----
-
-## **📌 Conclusion**
-
-This project demonstrates how SQL can be used to analyze large-scale transactional data, solve complex business problems, identify historical trends, and provide actionable recommendations for improving sales performance, inventory management, and overall business decision-making.
 
 ---
 
@@ -705,6 +615,13 @@ CASE
             THEN '12-18 Months'
         ELSE 'Beyond 18 Months'
     END
+
+
+
+## **📌 Conclusion**
+
+This project demonstrates how SQL can be used to analyze large-scale transactional data, solve complex business problems, identify historical trends, and provide actionable recommendations for improving sales performance, inventory management, and overall business decision-making.
+
 ORDER BY  p.Product_name,
     SUM(s.quantity)
 ```
