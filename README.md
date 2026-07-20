@@ -1,7 +1,7 @@
 #  Apple Sales Data Analysis using SQL
 
 
-![Apple](https://github.com/VictorAboli/Apple_Sales_SQL_Project/blob/ea6ce622790532f12a752fe47874dd2b7c9ccc3f/Apple_Image.webp)
+![Apple](https://github.com/VictorAboli/Apple_Sales_SQL_Project/blob/364390abd468303c22f410c644d27e85a7a309da/Apple_Image.jpg)
 
 ## **📌 Project Overview**
 
