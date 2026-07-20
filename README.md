@@ -1,5 +1,7 @@
 #  Apple Sales Data Analysis using SQL
 
+
+
 ## **📌 Project Overview**
 
 This project presents an end-to-end **SQL Data Analysis** of an Apple retail sales dataset containing **over 1 million records** distributed across **5 relational tables**.
@@ -25,15 +27,8 @@ Data Source: Kaggle = https://www.kaggle.com/datasets/amangarg08/apple-retail-sa
 
 ---
 
-## **🗂 Database Schema (ERD)**
 
-> Replace the image below with your ERD.
-
-<p align="center">
-<img src="images/ERD.png" width="900">
-</p>
-
-![ERD](images/ERD.png)
+![ERD](https://github.com/VictorAboli/Apple_Sales_SQL_Project/blob/802402b3d183f4a5c751f74925dd2196a980985e/Apple%20ERD%20Diagram.png)
 ---
 
 ## **📁 Database Structure**
