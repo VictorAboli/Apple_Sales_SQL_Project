@@ -1,50 +1,243 @@
-**Apple Sales Data Analysis using SQL
-**
-This project showcases an end-to-end SQL data analysis of an Apple retail sales dataset containing 1+ million records across 5 relational tables. Using Microsoft SQL Server, I performed Exploratory Data Analysis (EDA), solved real-world business problems, and uncovered historical sales trends to generate actionable business insights. The project includes an Entity Relationship Diagram (ERD) to illustrate the database schema and relationships between tables.
+#  Apple Sales Data Analysis using SQL
+
+## **📌 Project Overview**
+
+This project presents an end-to-end **SQL Data Analysis** of an Apple retail sales dataset containing **over 1 million records** distributed across **5 relational tables**.
+
+The objective of this project was to perform **Exploratory Data Analysis (EDA)**, solve real-world **business problems**, uncover **historical sales trends**, and generate **data-driven business recommendations** for stakeholders.
+
+The project demonstrates practical SQL skills commonly used by Data Analysts to transform raw transactional data into meaningful business insights.
 
 Data Source: Kaggle = https://www.kaggle.com/datasets/amangarg08/apple-retail-sales-dataset
 
-Project Highlights
-Analyzed a dataset with over 1 million records and 5 normalized tables.
-Designed and utilized an ERD to understand table relationships and optimize SQL queries.
-Solved 20+ real-world business questions using SQL.
-Performed Exploratory Data Analysis (EDA) to identify trends, patterns, and business opportunities.
-Analyzed key business metrics including:
-Sales performance
-Product performance
-Quantity sold
-Warranty claims
-Product launch performance
-Store-level and country-level trends
-Applied advanced SQL concepts such as:
-JOINs
-Common Table Expressions (CTEs)
-Window Functions
-Aggregate Functions
-CASE Expressions
-Date Functions
-Ranking Functions
-Running Totals
-Year-over-Year Growth Analysis
-Generated meaningful business insights and recommendations to support:
-Sales growth strategies
-Inventory optimization
-Product performance evaluation
-Warranty claim analysis
-Store performance improvement
-Key Business Outcomes
+---
 
-This analysis provides data-driven recommendations that help stakeholders:
+## **📊 Dataset Information**
 
-Improve sales performance across stores and regions.
-Optimize inventory planning based on demand trends.
-Monitor product lifecycle and launch performance.
-Identify high-risk products with frequent warranty claims.
-Evaluate store performance using historical sales trends.
-Support strategic business decisions through SQL-driven analytics.
+| **Feature** | **Details** |
+|-------------|-------------|
+| **Database** | Apple Sales Database |
+| **Records** | 1,000,000+ |
+| **Tables** | 5 |
+| **Database Type** | Relational |
+| **Analysis Tool** | Microsoft SQL Server |
+| **SQL Language** | T-SQL |
 
-Tools & Technologies: SQL Server, T-SQL, Relational Database Design, Exploratory Data Analysis (EDA), Window Functions, CTEs, Aggregations, Business Intelligence.
-Exploratory Data Analysis  
+---
+
+## **🗂 Database Schema (ERD)**
+
+> Replace the image below with your ERD.
+
+<p align="center">
+<img src="images/ERD.png" width="900">
+</p>
+
+---
+
+## **📁 Database Structure**
+
+The project consists of the following tables:
+
+- **Sales**
+- **Products**
+- **Stores**
+- **Category**
+- **Warranty**
+
+These tables are connected through primary and foreign keys to support comprehensive business analysis.
+
+---
+
+## **🎯 Project Objectives**
+
+✔ Perform Exploratory Data Analysis (EDA)
+
+✔ Solve real-world business problems using SQL
+
+✔ Analyze sales performance across stores and countries
+
+✔ Evaluate warranty claims and product quality
+
+✔ Study product launch performance
+
+✔ Discover historical sales trends
+
+✔ Generate actionable business recommendations
+
+---
+
+## **🛠 SQL Concepts Used**
+
+- **SELECT Statements**
+- **Filtering (WHERE)**
+- **ORDER BY**
+- **GROUP BY**
+- **HAVING**
+- **INNER JOIN**
+- **LEFT JOIN**
+- **RIGHT JOIN**
+- **Subqueries**
+- **Common Table Expressions (CTEs)**
+- **Aggregate Functions**
+- **Window Functions**
+- **Ranking Functions**
+- **Running Totals**
+- **Date Functions**
+- **CASE Statements**
+- **LAG()**
+- **DENSE_RANK()**
+- **RANK()**
+- **CAST()**
+- **FORMAT()**
+- **DATEADD()**
+- **DATEDIFF()**
+
+---
+
+# **📈 Business Questions Solved**
+
+The project answers **20+ business questions**, including:
+
+- Number of stores by country
+- Total units sold by each store
+- Monthly sales analysis
+- Warranty claim analysis
+- Best-selling stores
+- Product performance
+- Product launch analysis
+- Country-wise sales comparison
+- Year-over-Year (YoY) Growth
+- Running Total Sales
+- Product lifecycle analysis
+- Warranty rejection percentage
+- Store performance ranking
+- Product price vs warranty claims
+- Sales trends over time
+
+---
+
+## **📊 Key Insights**
+
+✅ United States contains the highest number of Apple Stores.
+
+✅ Melbourne Apple Chadstone recorded the highest units sold.
+
+✅ December 2023 generated one of the highest sales periods.
+
+✅ Approximately **24%** of warranty claims were rejected.
+
+✅ Accessories generated the highest warranty claims.
+
+✅ High-priced products received the largest number of warranty claims.
+
+✅ Running sales increased consistently over the four-year period.
+
+✅ Several products continued generating strong sales even after 18 months from launch.
+
+---
+
+## **💼 Business Recommendations**
+
+- Increase inventory allocation for high-performing stores.
+
+- Improve supply chain planning for peak sales months.
+
+- Investigate products with frequent warranty claims.
+
+- Monitor newly launched products closely.
+
+- Improve quality assurance for expensive products.
+
+- Increase marketing efforts in underperforming regions.
+
+- Optimize inventory using historical sales trends.
+
+- Improve customer retention through better warranty support.
+
+---
+
+## **📷 Sample Query Results**
+
+### **Store Performance**
+
+<p align="center">
+<img src="images/store_performance.png" width="850">
+</p>
+
+---
+
+### **Warranty Analysis**
+
+<p align="center">
+<img src="images/warranty_claims.png" width="850">
+</p>
+
+---
+
+### **Running Sales Trend**
+
+<p align="center">
+<img src="images/running_sales.png" width="850">
+</p>
+
+---
+
+## **📂 Repository Structure**
+
+```
+Apple-Sales-Analysis-SQL/
+│
+├── README.md
+├── Apple Sales SQL.sql
+├── Apple Sales Report.pdf
+├── Dataset/
+│
+├── images/
+│   ├── ERD.png
+│   ├── store_performance.png
+│   ├── warranty_claims.png
+│   ├── running_sales.png
+│
+└── Dataset Files
+```
+
+---
+
+## **🚀 Skills Demonstrated**
+
+- SQL
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Business Intelligence
+- Relational Database Design
+- Window Functions
+- Data Aggregation
+- Business Problem Solving
+- Data Interpretation
+- Analytical Thinking
+
+---
+
+## **🛠 Technologies Used**
+
+- Microsoft SQL Server
+- T-SQL
+- SQL Server Management Studio (SSMS)
+- Git
+- GitHub
+
+---
+
+## **📌 Conclusion**
+
+This project demonstrates how SQL can be used to analyze large-scale transactional data, solve complex business problems, identify historical trends, and provide actionable recommendations for improving sales performance, inventory management, and overall business decision-making.
+
+---
+
+## ⭐ If you found this project useful, consider giving it a Star!
+
+
 DIMENSION EXPLORATION 
 ```SQL
 SELECT DISTINCT repair_status 
