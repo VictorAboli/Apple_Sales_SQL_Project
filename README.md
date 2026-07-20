@@ -1,5 +1,49 @@
-# Apple_Sales_SQL_Project
---Apple Sales Project - 1M rows sales datasets
+Apple Sales Data Analysis using SQL
+
+This project showcases an end-to-end SQL data analysis of an Apple retail sales dataset containing 1+ million records across 5 relational tables. Using Microsoft SQL Server, I performed Exploratory Data Analysis (EDA), solved real-world business problems, and uncovered historical sales trends to generate actionable business insights. The project includes an Entity Relationship Diagram (ERD) to illustrate the database schema and relationships between tables.
+
+Data Source: Kaggle = https://www.kaggle.com/datasets/amangarg08/apple-retail-sales-dataset
+
+Project Highlights
+Analyzed a dataset with over 1 million records and 5 normalized tables.
+Designed and utilized an ERD to understand table relationships and optimize SQL queries.
+Solved 20+ real-world business questions using SQL.
+Performed Exploratory Data Analysis (EDA) to identify trends, patterns, and business opportunities.
+Analyzed key business metrics including:
+Sales performance
+Product performance
+Quantity sold
+Warranty claims
+Product launch performance
+Store-level and country-level trends
+Applied advanced SQL concepts such as:
+JOINs
+Common Table Expressions (CTEs)
+Window Functions
+Aggregate Functions
+CASE Expressions
+Date Functions
+Ranking Functions
+Running Totals
+Year-over-Year Growth Analysis
+Generated meaningful business insights and recommendations to support:
+Sales growth strategies
+Inventory optimization
+Product performance evaluation
+Warranty claim analysis
+Store performance improvement
+Key Business Outcomes
+
+This analysis provides data-driven recommendations that help stakeholders:
+
+Improve sales performance across stores and regions.
+Optimize inventory planning based on demand trends.
+Monitor product lifecycle and launch performance.
+Identify high-risk products with frequent warranty claims.
+Evaluate store performance using historical sales trends.
+Support strategic business decisions through SQL-driven analytics.
+
+Tools & Technologies: SQL Server, T-SQL, Relational Database Design, Exploratory Data Analysis (EDA), Window Functions, CTEs, Aggregations, Business Intelligence.
 Exploratory Data Analysis  
 DIMENSION EXPLORATION 
 ```SQL
