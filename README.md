@@ -1,7 +1,7 @@
 #  Apple Sales Data Analysis using SQL
 
 
-![Apple]([images/ERD.png](https://github.com/VictorAboli/Apple_Sales_SQL_Project/blob/ea6ce622790532f12a752fe47874dd2b7c9ccc3f/Apple_Image.webp))
+![Apple](https://github.com/VictorAboli/Apple_Sales_SQL_Project/blob/ea6ce622790532f12a752fe47874dd2b7c9ccc3f/Apple_Image.webp)
 
 ## **📌 Project Overview**
 
@@ -28,7 +28,7 @@ Data Source: Kaggle = https://www.kaggle.com/datasets/amangarg08/apple-retail-sa
 
 ---
 
-![ERD]([images/ERD.png](https://github.com/VictorAboli/Apple_Sales_SQL_Project/blob/802402b3d183f4a5c751f74925dd2196a980985e/Apple%20ERD%20Diagram.png))
+![ERD](https://github.com/VictorAboli/Apple_Sales_SQL_Project/blob/802402b3d183f4a5c751f74925dd2196a980985e/Apple%20ERD%20Diagram.png)
 ---
 
 ## **📁 Database Structure**
