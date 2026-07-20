@@ -175,8 +175,9 @@ SELECT SUM(quantity)
 FROM sales_
 ```
 Magnitude Analysis 
-TOTAL NUMBER OF SALES  BY COUNTRY 
+
 ```SQL
+--TOTAL NUMBER OF SALES  BY COUNTRY 
 SELECT 
 COUNT(s.quantity) AS COUNT_OF_SALES,
 t.Country 
@@ -239,8 +240,7 @@ GROUP BY p.product_name
 ```
 
 
--- Solving Business Problems
---Medium problems
+Solving Business Problems
 
 Q1. Find the number of stores in each country 
 ```SQL
@@ -365,8 +365,7 @@ FROM(
     )t
 WHERE rank_ = 1
 ```
-**Meduim Level Question
-**Q11.Identify the least selling product in each country based on Total units sold.
+Q11.Identify the least selling product in each country based on Total units sold.
 
 ```SQL
 SELECT 
@@ -444,9 +443,6 @@ WHERE DATEPART(YEAR,w.Claim_date) >= YEAR(GETDATE()) - 3
 GROUP BY c.category_name,DATEPART(YEAR,w.Claim_date)
 ORDER BY COUNT(w.claim_id) DESC 
 ```
-
-**Complex(5 Questions)
-**
 Q16. Determine the percentage chance of recieving warranty claims after each purchase for each country.
 ```SQL
 SELECT 
@@ -615,16 +611,11 @@ CASE
             THEN '12-18 Months'
         ELSE 'Beyond 18 Months'
     END
-
-
-
-## **📌 Conclusion**
-
-This project demonstrates how SQL can be used to analyze large-scale transactional data, solve complex business problems, identify historical trends, and provide actionable recommendations for improving sales performance, inventory management, and overall business decision-making.
-
 ORDER BY  p.Product_name,
     SUM(s.quantity)
 ```
 
+## **📌 Conclusion**
 
+This project demonstrates how SQL can be used to analyze large-scale transactional data, solve complex business problems, identify historical trends, and provide actionable recommendations for improving sales performance, inventory management, and overall business decision-making.
 
