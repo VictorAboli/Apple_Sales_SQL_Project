@@ -33,6 +33,7 @@ Data Source: Kaggle = https://www.kaggle.com/datasets/amangarg08/apple-retail-sa
 <img src="images/ERD.png" width="900">
 </p>
 
+![ERD](images/ERD.png)
 ---
 
 ## **📁 Database Structure**
